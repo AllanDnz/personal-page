@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;700&display=swap');
+
+
+body {
+background-image: linear-gradient(315deg, #ff49d4 0, #ff41df 12.5%, #ff3bea 25%, #ff38f5 37.5%, #ef38ff 50%, #d33cff 62.5%, #b143ff 75%, #874bff 87.5%, #4153ff 100%);
+font-family: 'Dosis', sans-serif;
+}
+
+.container {
+  background: #ECF4FF;
+  box-shadow: 6px 6px 6px #0E1D2F;
+  border-radius: 1px 20px 1px 20px;
+  margin: 64px;
+  color: #1C1C1C;
+  padding: 64px;
+}
+
+.cabecalho{
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil{
+  display: flex;
+}
+
+.foto-perfil{
+  border-radius: 400px;
+  max-height: 160px;
+  box-shadow: 0px 4px 4px rgba(1, 0, 0, 1);
+}
+
+.titulo{
+  margin-left: 15px;
+}
+
+.titulo h1{
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.titulo h3{
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.social-links{
+  list-style-type: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.social-links a{
+  text-decoration: none;
+  color: #1C1C1C;
+}
+
+.tema button{
+  align-self: flex-end;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 8px 16px;
+  background: #ECF4FF;
+  border-radius: 1px 20px 1px 20px;
+  border
+}
+
+.projetos{
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(105deg, #9fb8fe 0, #3f87e9 50%, #005bd4 100%);
+  border-radius: 1px 20px 1px 20px;
+  box-shadow: 6px 6px 6px #0E1D2F;
+  font-family: 'Dosis', sans-serif;
+  margin-top: 32px;
+  padding: 32px;
+}
+
+.projetos-titulo{
+  list-style: none;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.projetos-item{
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 48px;
+}
+
+.projetos-item a{
+  color: #1C1C1C;
+  text-decoration: none;
+}
+
+.dark {
+background-image: linear-gradient(295deg, #a42d77 0, #8b2770 16.67%, #711f65 33.33%, #551757 50%, #3b0f47 66.67%, #250839 83.33%, #15002d 100%);
+}
+
+.dark .social-links a{
+  color: #F6F6F6;
+}
+
+.dark .container{
+  background: #333439;
+  box-shadow: 6px 6px 6px #E4BBE5;
+  color: #F6F6F6;
+}
+
+.dark .projetos{
+  background-image: linear-gradient(295deg, #ca3c97 0, #af3690 16.67%, #922f86 33.33%, #742778 50%, #571f68 66.67%, #3d185a 83.33%, #26124d 100%);
+  box-shadow: 6px 6px 6px #E4BBE5;
+}
+
+.dark .projetos-item a{
+  color: #F6F6F6;
+}
+
+.dark .foto-perfil{
+  border-radius: 400px;
+  max-height: 160px;
+  box-shadow:0px 4px 4px #E4BBE5;
+}
